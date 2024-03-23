@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; 
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: lightblue; /* White header */
+    color: blue;
+    padding: 20px 0;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.site-name {
+    font-size: 50px;
+    color: navy; 
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+    text-align: left;
+    padding: 100px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content,
+.right-content {
+    width: 48%; /* Adjust as needed */
+}
+
+.right-content {
+    text-align: left;
+}
+
+.right-content form {
+    text-align: left;
+}
+
+.right-content form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.right-content form input,
+.right-content form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.right-content form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+.left-content img,
+.right-content img {
+    max-width: 50%; /* Ensure images do not exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper spacing */
+    margin-bottom: 20px; /* Add some space below the image */
+}
